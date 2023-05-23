@@ -881,7 +881,7 @@ if getgenv().Key and listPre[game.GameId] ~= nil then
 elseif not getgenv().Key and list[game.GameId] ~= nil then
 	loadstring(list[tonumber(game.GameId)])()
 else
-	game.Players.LocalPlayer:Kick("game not support, discord.gg/hohohub")
+	game.Players.LocalPlayer:Kick("game not supported by auto exec wait for an update. sorry")
 end
 
 local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
