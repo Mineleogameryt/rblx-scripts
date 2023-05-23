@@ -56,6 +56,7 @@ elseif game.PlaceId == 6284583030 then
 --prison life
 elseif game.PlaceId == 155615604 then
    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Mineleogameryt/prisonlfr/main/Script2.lua), true))()
+   elseif game.PlaceId == 155615604 then
    loadstring(game:HttpGet(("https://github.com/Mineleogameryt/rblx-scripts/raw/main/flycarpl.lua"), true))()
 --universal
 else
