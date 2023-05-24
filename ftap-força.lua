@@ -3,7 +3,7 @@ local userinputs = game:GetService("UserInputService")
 local w = game:GetService("Workspace")
 local r = game:GetService("RunService")
 local d = game:GetService("Debris")
-local strength = 400
+local strength = Value --PUT STRENGHT HERE
  
 w.ChildAdded:Connect(function(model)
     if model.Name == "GrabParts" then
